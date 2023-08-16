@@ -1,4 +1,5 @@
 import dotenv from 'dotenv'
+// note: to run backend and front end together, use npm run app
 
 import connectToDatabase from './database.js'
 import express from 'express';
