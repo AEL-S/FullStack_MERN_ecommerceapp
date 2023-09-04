@@ -1,5 +1,5 @@
 import dotenv from 'dotenv'
-// note: to run backend and front end together, use npm run app
+// note to self: be in main folder and then to run backend and front end together, use npm run app
 
 import connectToDatabase from './database.js'
 import express from 'express';
@@ -15,7 +15,7 @@ app.use(express.json());
 
 const port = process.env.PORT || 5000
 
-app.use('/api/products', productRoutes)
+app.use('/api/products', productRoutes);
 
 
 
